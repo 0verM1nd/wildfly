@@ -48,28 +48,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>3.2.3</version>
         </plugin>
-        <plugin>
-            <groupId>org.sonatype.plugins</groupId>
-            <artifactId>nexus-staging-maven-plugin</artifactId>
-            <version>1.6.3</version>
-            <extensions>true</extensions>
-            <configuration>
-                <serverId>nexus</serverId>
-                <nexusUrl>http://127.0.0.1:8081</nexusUrl>
-            </configuration>
-          </plugin>
-    
-        </plugins>
-      </build>
-             
-    <distributionManagement>
-          <snapshotRepository>
-            <id>nexus</id>
-            <url>http://127.0.0.1:8081/repository/maven-snapshots/</url>
-          </snapshotRepository>
-    </distributionManagement>
-    <dependencies>
-
+        
         <!-- Import the CDI API, we use provided scope as the API is included in JBoss EAP -->
         <dependency>
             <groupId>javax.enterprise</groupId>
