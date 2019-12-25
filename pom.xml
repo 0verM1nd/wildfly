@@ -49,6 +49,7 @@
             <version>3.2.3</version>
         </plugin>
       </plugins>
+     </build>
         <dependencies>
         <!-- Import the CDI API, we use provided scope as the API is included in JBoss EAP -->
         <dependency>
