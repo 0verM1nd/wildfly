@@ -28,9 +28,9 @@
         <version>7.2.0.GA</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>greeter</artifactId>
+    <artifactId>wildfly</artifactId>
     <packaging>war</packaging>
-    <name>Quickstart: greeter</name>
+    <name>Wildfly</name>
     <description>A simple greeter project that demonstrates CDI, JPA, JTA, EJB and JSF</description>
 
     <licenses>
@@ -114,9 +114,4 @@
         </dependency>
 
     </dependencies>
-
-    <build>
-        <!-- Set the name of the WAR, used as the context root when the app is deployed -->
-        <finalName>${project.artifactId}</finalName>
-    </build>
 </project>
